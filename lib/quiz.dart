@@ -1,10 +1,11 @@
 
 import 'package:quiz_app/questions.dart';
-import 'package:flutter/src/material/scaffold.dart';
 import 'package:flutter/material.dart';
 
 
 class Quiz extends StatefulWidget {
+  const Quiz({super.key});
+
 
   @override
   _QuizState createState() => _QuizState();
