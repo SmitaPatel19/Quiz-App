@@ -1,16 +1,46 @@
-# quiz_app
+# Quiz App
 
-A new Flutter project.
+A simple beginner Flutter-based Quiz App with multiple-choice questions on K-Dramas.
 
-## Getting Started
+## Features
+- Displays a series of multiple-choice questions.
+- Users can navigate between questions.
+- Shows instant feedback (correct/incorrect) using SnackBars.
+- Smooth UI with a clean design.
 
-This project is a starting point for a Flutter application.
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/quiz_app.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd quiz_app
+   ```
+3. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+4. Run the app:
+   ```sh
+   flutter run
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure
+```
+quiz_app/
+│-- lib/
+│   ├── main.dart
+│   ├── quiz.dart
+│   ├── questions.dart
+│-- android/
+│-- ios/
+│-- assets/
+│-- pubspec.yaml
+│-- README.md
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Requirements
+- Flutter SDK
+- Dart
+- Android Studio or Visual Studio Code
